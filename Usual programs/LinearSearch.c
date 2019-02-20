@@ -38,3 +38,8 @@ void main(){
     printf("\nThe timetaken by the algorithms is %f",time);
     printf("\n----------------------------------------------------\n");
 }
+/*
+    This s to be noted that, linear search is rarely used because the time complexity of this algorithm comes out to be O(n),
+    which is greater than Binary search and other searches. For ex, considering a proper binary search tree, it will do in
+    approximatelyy O(log n) times.
+*/

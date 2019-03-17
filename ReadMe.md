@@ -1,4 +1,4 @@
 ## This is the course on Algorithms.
 ### It will contain some standard algorithms and their analysis.
 ### The syllabus for the same came be found here:
-[Syllabus](https://s3-us-west-2.amazonaws.com/msrit-bucket/Departments/ISE/Syllabus/UGSyllabusBook-3%264-2018-19.PDF)
+[Syllabus](https://drive.google.com/open?id=13kJKvtEgX8IZ0kP1sUTiYkwChwgNId7N)

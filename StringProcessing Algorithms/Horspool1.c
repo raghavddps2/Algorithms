@@ -89,3 +89,17 @@ void main(){
         printf("The pattern is found at the position %d",pos);
     }
 }
+
+
+/*
+    ---------------OUTPUT---------------
+    Enter the string:       RaghavIsAGoodBoy
+    Enter the search string:        Good.
+    The pattern is found at the position 10
+
+    Enter the string:       RaghavIsHere
+    Enter the search string:        hesd
+    The pattern couldn't be found in the given string/text
+
+
+*/

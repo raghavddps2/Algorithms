@@ -30,3 +30,6 @@ void main(){
     }
 
 }
+//Best case time complexity: O(n) //When the data is already sorted.
+// Worst/Average Time complexity: O(n^2);
+//Space Complexity: O(1)

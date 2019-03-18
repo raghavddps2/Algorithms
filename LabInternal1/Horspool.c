@@ -54,3 +54,7 @@ void main(){
             printf("The search string is not found in the string!");
         }
 }
+//Average case complexity: O(n)
+//Worst case complexity: O(mn)
+//m is the length of string
+//n is the length of searchString

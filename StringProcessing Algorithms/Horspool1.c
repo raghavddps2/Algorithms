@@ -46,6 +46,7 @@ void shiftTable(char *searchStr){
         table[i] = strlen(searchStr);
     }
 
+    
     for(int i=0;i<strlen(searchStr)-1;i++){
         table[searchStr[i]] = strlen(searchStr) - i -1;
     }

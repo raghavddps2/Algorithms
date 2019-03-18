@@ -29,3 +29,6 @@ void main(){
         printf("%d ",A[i]);
     }
 }
+
+//Best/worst/average Case time complexity: O(n^2)
+//Space complexity: O(1)

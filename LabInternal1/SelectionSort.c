@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 //Basically, at every iteration of outer loop, the samllest element comes at the first(Appropriately).
 void main(){
     int n;
@@ -26,7 +27,13 @@ void main(){
 
     printf("\nThe sorted array is:\t");
     for(int i=0;i<n;i++){
-        printf("%d ",A[i]);
+        while(A[i+1] == A[i]){
+            i++;
+        }
+        if(i<n){
+            printf("%d ",A[i]);
+        }
+        
     }
 }
 

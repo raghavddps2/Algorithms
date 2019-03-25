@@ -1,9 +1,8 @@
 /*
     @Author: Raghav Maheshwari
     @Date: 26th March, 2019
-    @Topic: Knapsack problem!
+    @Topic: Fractional Knapsack problem!
 */
-
 #include<stdio.h>
 
 
@@ -16,6 +15,7 @@ struct item{
 int n;
 struct item arr[1000]; 
 //Defining the sorting function in reverse order (Descending order.)
+//It is advised to use any stable sorting algorithm...(Here, Bubble sort is used.)
 void sort(struct item A[],int n){
 
     int i,j;
@@ -39,11 +39,11 @@ void main(){
 
     //Taking the weight and value of all the n objects.
     for(int i=0;i<n;i++){
-        // printf("\nEnter the value of object %d:\t",i);
+        printf("\nEnter the value of object %d:\t",i);
         scanf("%f",&arr[i].value);
 
         
-        // printf("\nEnter the weight of object %d:\t",i);
+        printf("\nEnter the weight of object %d:\t",i);
         scanf("%f",&arr[i].weight);
     }
 
@@ -62,7 +62,7 @@ void main(){
    }
    //Now we need to sort the array obtained in decreasing order.
     
-    sort(arr,n);
+    sort(arr,n); //By refernce only.
     
     
     //Now, we should get the fraction matrix to get the fraction of each object present to optimize the profit 

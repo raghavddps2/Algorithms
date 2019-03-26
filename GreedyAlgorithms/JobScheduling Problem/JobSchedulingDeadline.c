@@ -1,3 +1,8 @@
+/*  
+    @Author: Raghav Maheshwari
+    @Date: 26th,March,2019
+    @Topic: Job Scheduling
+*/
 #include<stdio.h>
 
 //Structure defined for the same.
@@ -79,7 +84,9 @@ void main(){
     }
 }
 /*
-    a
+  -----------------------------------OUTPUT----------------------------
+  Enter the number of jobs:       7
+a
 35
 3
 b
@@ -101,4 +108,5 @@ g
 5
 2
 
+The job sequence is:    d c a b
 */

@@ -1,3 +1,25 @@
+/*
+
+    @Author: Raghav Maheshwari
+    @Date: 28th April, 2019
+    @Problem: 0/1 Knapsack
+
+    Basically, formulate the same table as we make on paper using code.
+        1. We make the first row and the first column as 0
+        2. We start with row 1, and iterate with entrire capacity from 1 to maxCap and if the c>= weight[i], 
+            we change it accordingly with whatever is max table[i-1][c] or table[i-1][c-weight[i]]+profit[i]
+        3. After this we mark the items taken by looking at the values in consective rows and same columns, if they dont match
+            we include it and then, we reduce the value of netCap by weight[i].
+
+    Time complexity: O(nW) n is the number of items and W is the weight of the sack.
+    SpaceComplexity: O(nW) n is the number of items and W is the weight of the sack.
+
+    
+    How did it come ?
+
+*/
+
+
 #include<stdio.h>
 
 int max(int a, int b){
@@ -59,6 +81,7 @@ void knapsack(int n,int *weight, int *profit, int capacity){
     int maxprofit = 0;
     printf("\n-----------------------------------------------------------\n");
     printf("\nThe items that are taken are:\t");
+    //We will check as to what all element are 1 here and we will include that and calculate the profit step by step.
     for(int i=1;i<=n;i++){
         if(selected[i]){
             printf("%d ");

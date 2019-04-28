@@ -11,11 +11,10 @@
         3. After this we mark the items taken by looking at the values in consective rows and same columns, if they dont match
             we include it and then, we reduce the value of netCap by weight[i].
 
-    Time complexity: O(nW) n is the number of items and W is the weight of the sack.
-    SpaceComplexity: O(nW) n is the number of items and W is the weight of the sack.
-
-    
-    How did it come ?
+    Time complexity: O(nW) n is the number of items and W is the weight of the knapsack.
+    SpaceComplexity: O(nW) n is the number of items and W is the weight of the knapsack.
+    n = n is the of items
+    w = W weight of knapsack.
 
 */
 

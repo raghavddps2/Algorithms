@@ -104,8 +104,4 @@ void main(){
         The minimum cost of the mimimum spanning tree is 7
     ----------------------------------------------------------
 
-
-
-
-
 */

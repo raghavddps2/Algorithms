@@ -8,7 +8,7 @@
         Start with the least, and keep on looking for the least weighted edge till all the nodes are completed.
         THis way the MST is determined. Print the edges and the weight of MST.
 
-        Time complexity: O(nE) but O(n^3) here.
+        Time complexity: O(nE) but O(n^3) here. ;How?
         Space complexity: O(n).
 
 */

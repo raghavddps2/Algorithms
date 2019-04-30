@@ -32,11 +32,11 @@ void knapsack(int n,int *weight, int *profit, int capacity){
     //Create a table as we create on paper.
     int table[n+1][capacity+1];
 
-    //Making the first row as 0, because there is no item selected.
+    //Making the first column as 0, because there is no item selected.
     for(int i=0;i<=n;i++){
         table[i][0] = 0;
     }
-    //Making the first column as 0, as the capacity of the knapsack is zero.
+    //Making the first row as 0, as the capacity of the knapsack is zero.
     for(int j=0;j<=capacity;j++){
         table[0][j] = 0;
     }

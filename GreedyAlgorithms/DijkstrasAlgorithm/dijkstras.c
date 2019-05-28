@@ -2,7 +2,7 @@
 
     @Author: Raghav Maheshwari
     @Date: 29th April, 2019
-    @Topic: Dijkstras Algorithm
+    @Topic: Dijkstra's Algorithm
 
 
     Algorithm: In this we start from the source vertex and marke the distance for neigbouring
